@@ -13,7 +13,7 @@ x <- rnorm(population_size, mean = 0, sd = 1)
 y <- rnorm(population_size, mean = 0, sd = 1)
 population <- list(x = x, y = y)
 
-effect_sizes   <- c(0.03, 0.5, 1)
+effect_sizes   <- c(0.1, 0.5, 1)
 powers         <- c(0.8)
 alphas         <- c(0.05)
 iterations     <- c(10000)
